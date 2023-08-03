@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Toss</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p class="pp">Coin Toss</p>
+
+    <h1>Choice the face of coin(head or tail)</h1>
+
+    <button onclick="playGame('head');" class="move"><img src="head.png" alt=""></button>
+
+    <button onclick="playGame('tail');" class="move"><img src="tail.png" alt=""></button>
+
+
+
+    <p class="js-result"></p>
+    <p class="js-moves"></p>
+    <p class="js-score"></p>
+
+
+    <button onclick="
+    
+    score.wins =0;
+    score.losses=0;
+    localStorage.removeItem('score');
+    updateScored();
+    " class="reset">Reset Score</button>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
