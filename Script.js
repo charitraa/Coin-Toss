@@ -42,7 +42,7 @@ const score = JSON.parse(localStorage.getItem('score')) || {
 
             document.querySelector('.js-result').innerHTML = result;
 
-            document.querySelector('.js-moves').innerHTML = `you choice: <img src="${playerMove}.png" alt=""> Result:<img src="${coin}.png" alt=""> `;
+            document.querySelector('.js-moves').innerHTML = `you choose: <img src="${playerMove}.png" alt=""> Result:<img src="${coin}.png" alt=""> `;
 
             //     alert(`you picked ${C}. Computer Picked ${coin}. ${result}
             // wins:${score.wins}, Losses:${score.losses}, Ties:${score.ties}`);
